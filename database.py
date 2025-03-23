@@ -103,6 +103,6 @@ class MongoDB:
 
 
 database = MongoDB(
-    myUrl=bot_config.db_url.get_secret_value(),
-    database=bot_config.db_database.get_secret_value(),
+    myUrl="URL",
+    database="main"
 )
